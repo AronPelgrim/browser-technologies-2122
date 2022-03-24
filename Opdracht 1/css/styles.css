@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: .5em 2em;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+section {
+    margin-bottom: 2em;
+}
+img {
+    width: 50vw;
+}
