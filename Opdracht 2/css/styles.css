@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: .5em 2em;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+section {
+    margin-bottom: 5em;
+}
+img {
+    width: 70vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 2em;
+}
+p {
+    margin-top: 2em;
+}
