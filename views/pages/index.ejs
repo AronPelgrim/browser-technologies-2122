@@ -7,10 +7,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/mainStyles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1>Enquete over de minor Web Development</h1>
-        <form method="post" enctype="application/x-www-form-urlencoded" action="/">
+        <a href="#sgegevens">Begin de enquete</a>
+        <form method="post" enctype="application/x-www-form-urlencoded" action="/result">
             <fieldset id="sgegevens">
                 <label for="studentgegevens">Studentgegevens</label><br>
                 <input type="text" id="studentgegevens" name="inputvalue" placeholder="500807406" required><br>
@@ -47,17 +51,17 @@
                 <a href="#sgegevens">Vorige</a>
                 <a href="#webapp">Volgende</a>
             </fieldset>
-            <!-- <fieldset id="webapp">
+            <fieldset id="webapp">
                 <legend>Web app from scratch</legend>
                 <label for="naam">Naam</label><br>
-                <input type="text" id="naam" placeholder="Aron Pelgrim" required><br>
+                <input type="text" id="naam" name="inputvalue" placeholder="Aron Pelgrim" required><br>
                 <label for="docent">Docent</label><br>
-                <input type="text" id="docent" placeholder="Robert Spier" required><br>
+                <input type="text" id="docent" name="inputvalue" placeholder="Robert Spier" required><br>
                 <label for="vakperiode">Vakperiode</label><br>
-                <input type="datetime-local" id="vakperiode" required>
-                <input type="datetime-local" id="vakperiode" required><br>
+                <input type="datetime-local" id="vakperiode" name="inputvalue" required>
+                <input type="datetime-local" id="vakperiode" name="inputvalue" required><br>
                 <label for="beoordeling">Beoordeel het vak</label><br>
-                <select name="beoordeling" id="beoordeling">
+                <select name="inputvalue" id="beoordeling">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -70,25 +74,25 @@
                     <option value="10">10</option>
                 </select><br>
                 <label for="lesstof">Hoe moeilijk is de lesstof?</label><br>
-                <textarea id="lesstof" placeholder="Heel moeilijk." required></textarea><br>
+                <textarea id="lesstof" name="inputvalue" placeholder="Heel moeilijk." required></textarea><br>
                 <label for="uitleg">Hoe duidelijk is het uitgelegd?</label><br>
-                <textarea id="uitleg" placeholder="Heel duidelijk." required></textarea><br>
+                <textarea id="uitleg" name="inputvalue" placeholder="Heel duidelijk." required></textarea><br>
                 <label for="inzicht ">Hoe goed snap je het?</label><br>
-                <textarea id="inzicht" placeholder="Ik snap het heel goed." required></textarea><br>
+                <textarea id="inzicht" name="inputvalue" placeholder="Ik snap het heel goed." required></textarea><br>
                 <a href="#css">Vorige</a>
                 <a href="#browsertech">Volgende</a>
             </fieldset>
             <fieldset id="browsertech">
                 <legend>Browser Technologies</legend>
                 <label for="naam">Naam</label><br>
-                <input type="text" id="naam" placeholder="Aron Pelgrim" required><br>
+                <input type="text" id="naam" name="inputvalue" placeholder="Aron Pelgrim" required><br>
                 <label for="docent">Docent</label><br>
-                <input type="text" id="docent" placeholder="Robert Spier" required><br>
+                <input type="text" id="docent" name="inputvalue" placeholder="Robert Spier" required><br>
                 <label for="vakperiode">Vakperiode</label><br>
-                <input type="datetime-local" id="vakperiode" required>
-                <input type="datetime-local" id="vakperiode" required><br>
+                <input type="datetime-local" id="vakperiode" name="inputvalue" required>
+                <input type="datetime-local" id="vakperiode" name="inputvalue" required><br>
                 <label for="beoordeling">Beoordeel het vak</label><br>
-                <select name="beoordeling" id="beoordeling">
+                <select name="inputvalue" id="beoordeling">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -101,25 +105,25 @@
                     <option value="10">10</option>
                 </select><br>
                 <label for="lesstof">Hoe moeilijk is de lesstof?</label><br>
-                <textarea id="lesstof" placeholder="Heel moeilijk." required></textarea><br>
+                <textarea id="lesstof" name="inputvalue" placeholder="Heel moeilijk." required></textarea><br>
                 <label for="uitleg">Hoe duidelijk is het uitgelegd?</label><br>
-                <textarea id="uitleg" placeholder="Heel duidelijk." required></textarea><br>
+                <textarea id="uitleg" name="inputvalue" placeholder="Heel duidelijk." required></textarea><br>
                 <label for="inzicht ">Hoe goed snap je het?</label><br>
-                <textarea id="inzicht" placeholder="Ik snap het heel goed." required></textarea><br>
+                <textarea id="inzicht" name="inputvalue" placeholder="Ik snap het heel goed." required></textarea><br>
                 <a href="#webapp">Vorige</a>
                 <a href="#progressivewa">Volgende</a>
             </fieldset>
             <fieldset id="progressivewa">
                 <legend>Progressive Web Apps</legend>
                 <label for="naam">Naam</label><br>
-                <input type="text" id="naam" placeholder="Aron Pelgrim" required><br>
+                <input type="text" id="naam" name="inputvalue" placeholder="Aron Pelgrim" required><br>
                 <label for="docent">Docent</label><br>
-                <input type="text" id="docent" placeholder="Robert Spier" required><br>
+                <input type="text" id="docent" name="inputvalue" placeholder="Robert Spier" required><br>
                 <label for="vakperiode">Vakperiode</label><br>
-                <input type="datetime-local" id="vakperiode" required>
-                <input type="datetime-local" id="vakperiode" required><br>
+                <input type="datetime-local" id="vakperiode" name="inputvalue" required>
+                <input type="datetime-local" id="vakperiode" name="inputvalue" required><br>
                 <label for="beoordeling">Beoordeel het vak</label><br>
-                <select name="beoordeling" id="beoordeling">
+                <select name="inputvalue" id="beoordeling">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -132,25 +136,25 @@
                     <option value="10">10</option>
                 </select><br>
                 <label for="lesstof">Hoe moeilijk is de lesstof?</label><br>
-                <textarea id="lesstof" placeholder="Heel moeilijk." required></textarea><br>
+                <textarea id="lesstof" name="inputvalue" placeholder="Heel moeilijk." required></textarea><br>
                 <label for="uitleg">Hoe duidelijk is het uitgelegd?</label><br>
-                <textarea id="uitleg" placeholder="Heel duidelijk." required></textarea><br>
+                <textarea id="uitleg" name="inputvalue" placeholder="Heel duidelijk." required></textarea><br>
                 <label for="inzicht ">Hoe goed snap je het?</label><br>
-                <textarea id="inzicht" placeholder="Ik snap het heel goed." required></textarea><br>
+                <textarea id="inzicht" name="inputvalue" placeholder="Ik snap het heel goed." required></textarea><br>
                 <a href="#browsertech">Vorige</a>
                 <a href="#realtimeweb">Volgende</a>
             </fieldset>
             <fieldset id="realtimeweb">
                 <legend>Real-Time Web</legend>
                 <label for="naam">Naam</label><br>
-                <input type="text" id="naam" placeholder="Aron Pelgrim" required><br>
+                <input type="text" id="naam" name="inputvalue" placeholder="Aron Pelgrim" required><br>
                 <label for="docent">Docent</label><br>
-                <input type="text" id="docent" placeholder="Robert Spier" required><br>
+                <input type="text" id="docent" name="inputvalue" placeholder="Robert Spier" required><br>
                 <label for="vakperiode">Vakperiode</label><br>
-                <input type="datetime-local" id="vakperiode" required>
-                <input type="datetime-local" id="vakperiode" required><br>
+                <input type="datetime-local" id="vakperiode" name="inputvalue" required>
+                <input type="datetime-local" id="vakperiode" name="inputvalue" required><br>
                 <label for="beoordeling">Beoordeel het vak</label><br>
-                <select name="beoordeling" id="beoordeling">
+                <select name="inputvalue" id="beoordeling">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -163,25 +167,25 @@
                     <option value="10">10</option>
                 </select><br>
                 <label for="lesstof">Hoe moeilijk is de lesstof?</label><br>
-                <textarea id="lesstof" placeholder="Heel moeilijk." required></textarea><br>
+                <textarea id="lesstof" name="inputvalue" placeholder="Heel moeilijk." required></textarea><br>
                 <label for="uitleg">Hoe duidelijk is het uitgelegd?</label><br>
-                <textarea id="uitleg" placeholder="Heel duidelijk." required></textarea><br>
+                <textarea id="uitleg" name="inputvalue" placeholder="Heel duidelijk." required></textarea><br>
                 <label for="inzicht ">Hoe goed snap je het?</label><br>
-                <textarea id="inzicht" placeholder="Ik snap het heel goed." required></textarea><br>
+                <textarea id="inzicht" name="inputvalue" placeholder="Ik snap het heel goed." required></textarea><br>
                 <a href="#progressivewa">Vorige</a>
                 <a href="#hcd">Volgende</a>
             </fieldset>
             <fieldset id="hcd">
                 <legend>Human Centered Design</legend>
                 <label for="naam">Naam</label><br>
-                <input type="text" id="naam" placeholder="Aron Pelgrim" required><br>
+                <input type="text" id="naam" name="inputvalue" placeholder="Aron Pelgrim" required><br>
                 <label for="docent">Docent</label><br>
-                <input type="text" id="docent" placeholder="Robert Spier" required><br>
+                <input type="text" id="docent" name="inputvalue" placeholder="Robert Spier" required><br>
                 <label for="vakperiode">Vakperiode</label><br>
-                <input type="datetime-local" id="vakperiode" required>
-                <input type="datetime-local" id="vakperiode" required><br>
+                <input type="datetime-local" id="vakperiode" name="inputvalue" required>
+                <input type="datetime-local" id="vakperiode" name="inputvalue" required><br>
                 <label for="beoordeling">Beoordeel het vak</label><br>
-                <select name="beoordeling" id="beoordeling">
+                <select name="inputvalue" id="beoordeling">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -194,14 +198,14 @@
                     <option value="10">10</option>
                 </select><br>
                 <label for="lesstof">Hoe moeilijk is de lesstof?</label><br>
-                <textarea id="lesstof" placeholder="Heel moeilijk." required></textarea><br>
+                <textarea id="lesstof" name="inputvalue" placeholder="Heel moeilijk." required></textarea><br>
                 <label for="uitleg">Hoe duidelijk is het uitgelegd?</label><br>
-                <textarea id="uitleg" placeholder="Heel duidelijk." required></textarea><br>
+                <textarea id="uitleg" name="inputvalue" placeholder="Heel duidelijk." required></textarea><br>
                 <label for="inzicht ">Hoe goed snap je het?</label><br>
-                <textarea id="inzicht" placeholder="Ik snap het heel goed." required></textarea><br>
+                <textarea id="inzicht" name="inputvalue" placeholder="Ik snap het heel goed." required></textarea><br>
                 <a href="#realtimeweb">Vorige</a><br>
-            </fieldset> -->
-            <input type="submit" value="versturen" />
+                <input type="submit" value="versturen" />
+            </fieldset>
         </form>
     </body>
 </html>

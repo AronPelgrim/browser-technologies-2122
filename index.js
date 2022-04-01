@@ -18,18 +18,13 @@ app.get('', (req, res) => {
     res.render('index')
 })
 
-
-let userInput;
-
-app.post('/', (req, res) => {
-	console.log(req.body)
-
+app.post('/result', (req, res) => {
+	let userInput;
 	userInput = JSON.stringify(req.body.inputvalue)
-
-	fs.writeFile('informatie.json', userInput, 'utf8', cb => {
+	fs.writeFile('resultaten.json', userInput, 'utf8', cb => {
 	})
-	res.render('index', {
-		gebruikersnaam: userInput
+	res.render('result', {
+		resultList: JSON.parse(userInput)
 	})
 })
 
