@@ -1,3 +1,7 @@
+[Opdracht 1](https://aronpelgrim.github.io/browser-technologies-2122/Opdracht%201/)
+
+[Opdracht 2](https://aronpelgrim.github.io/browser-technologies-2122/Opdracht%202/)
+
 # Browser Technologies: Minor Webdevelopment enquete
 Welkom bij deze repository. Voor dit project heb ik een enquete gemaakt voor de CMD minor, die werkzaam is op verschillende browsers en waarin het mogelijk is om de CSS en JavaScript uit te zetten en alsnog een werkende enquete te hebben. Dit is voornamelijk gedaan door de strategie Progressive Enhancement.
 
