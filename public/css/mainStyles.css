@@ -2,14 +2,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    display: grid;
+    display: block;
     justify-content: center;
     place-items: center;
     background-color: #FFF21B;
 }
 h1 {
-    font-size: clamp(1.5rem, 2.5vw, 2.2rem); 
-    text-align: center;
+    font-size: 2em; 
+    text-align: left;
     margin-bottom: 1.5em;
     font-weight: bold;
 }
@@ -17,8 +17,7 @@ fieldset {
     display: none;
 }
 fieldset:target {
-    display: flex;
-    flex-direction: column;
+    display: block;
     border: none;
     width: 25vw;
     transition: 1s;
@@ -35,25 +34,22 @@ ul:target {
 li {
     list-style-type: none;
     margin: 1em 0;
-    margin-left: -2em;
-}
-br {
-    display: none;
+    margin-left: -10em;
 }
 legend {
-    font-size: clamp(1rem, 2vw, 1.5rem); 
+    font-size: 1.3em; 
     font-weight: bold;
     border-bottom: .1em solid #000;
     margin: 1em 0;
 }
 label {
-    font-size: clamp(.8rem, 2vw, 1rem); 
+    font-size: 1em; 
     font-weight: bold;
 }
 input, textarea, select {
 	border-radius: .4em;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    font-size: clamp(.8rem, 2vw, 1rem); 
+    font-size: 1em; 
 	text-align: left;
 	border: none;
 	padding: .5em .5em;
@@ -64,7 +60,7 @@ input[type=submit] {
     color: white;
     cursor: pointer;
     text-align: center;
-    font-size: clamp(.8rem, 2vw, 1rem); 
+    font-size: 1em; 
 }
 a {
     text-decoration: none;
@@ -72,9 +68,47 @@ a {
 	border: none;
 	color: white;
 	text-align: center;
-	font-size: clamp(.8rem, 2vw, 1rem); 
+	font-size: 1em; 
 	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 	cursor: pointer;
     padding: .5em .5em;
     border-radius: .4em;
+}
+@supports (display: grid) {
+    body {
+      display: grid;
+      place-items: center;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+@supports (display: flex) {
+    fieldset:target {
+        display: flex;
+        flex-direction: column;
+    }
+    br {
+        display: none;
+    }
+}
+@supports (font-size: clamp(.8rem, 2vw, 1rem)) {
+    h1 {
+        font-size: clamp(1.5rem, 2.5vw, 2.2rem); 
+    }
+    legend {
+        font-size: clamp(1rem, 2vw, 1.5rem); 
+    }
+    label {
+        font-size: clamp(.8rem, 2vw, 1rem); 
+    }
+    input, textarea, select {
+        font-size: clamp(.8rem, 2vw, 1rem);
+    }
+    input[type=submit] {
+        font-size: clamp(.8rem, 2vw, 1rem);
+    }
+    a {
+        font-size: clamp(.8rem, 2vw, 1rem);
+    }
 }
