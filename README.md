@@ -77,6 +77,48 @@ Ik heb dit bijvoorbeeld gebruikt bij een grid.
 }
 ```
 
+Ook heb ik deze methode gebruikt voor flexbox.
+
+```CSS
+@supports (display: flex) {
+    fieldset:target {
+        display: flex;
+        flex-direction: column;
+    }
+    br {
+        display: none;
+    }
+}
+```
+
+En tot slot heb ik dit gebruikt bij ```clamp()``` om verschillende font-sizes op een goede manier mee te laten schalen.
+
+```CSS
+@supports (font-size: clamp(.8rem, 2vw, 1rem)) {
+    h1 {
+        font-size: clamp(1.5rem, 2.5vw, 2.2rem); 
+    }
+    legend {
+        font-size: clamp(1rem, 2vw, 1.5rem); 
+    }
+    label {
+        font-size: clamp(.8rem, 2vw, 1rem); 
+    }
+    input, textarea, select {
+        font-size: clamp(.8rem, 2vw, 1rem);
+    }
+    input[type=submit] {
+        font-size: clamp(.8rem, 2vw, 1rem);
+    }
+    a {
+        font-size: clamp(.8rem, 2vw, 1rem);
+    }
+    li {
+        font-size: clamp(.8rem, 2vw, 1rem);
+    }
+}
+```
+
 ## Issues?
 Je kan een issue aanmaken in deze repository om me te laten weten wat er mis gaat.
 
