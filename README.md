@@ -1,1 +1,58 @@
+# Browser Technologies: Minor Webdevelopment enquete
+Welkom bij deze repository. Voor dit project heb ik een enquete gemaakt voor de CMD minor, die werkzaam is op verschillende browsers en waarin het mogelijk is om de CSS en JavaScript uit te zetten en alsnog een werkende enquete te hebben. Dit is voornamelijk gedaan door de strategie Progressive Enhancement.
 
+Volg de link voor de app!
+[https://browser-tech-aron.herokuapp.com/](https://browser-tech-aron.herokuapp.com/)
+
+## Table of Contents
+
+-   [User story](#user-story)
+-   [Eisen](#eisen)
+-   [Een preview](#een-preview)
+-   [Process](#process)
+-   [Issues?](#issues)
+-   [License](#license)
+
+## User story
+> Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
+
+## Eisen 
+- Studentgegevens (naam + nummer) verplicht
+- Per vak 
+	- naam
+	- docent(en)
+	- weken waarin je het vak deed
+	- beoordeling op schaal 1-10 van
+	- lesstof (hoe moeilijk is het)
+	- uitleg (hoe duidelijk is het uitgelegd)
+	- eigen inzicht (hoe goed snap je het)
+	
+- Validatie: alles moet zijn ingevuld voordat je verder mag met het formulier. Geef duidelijke foutmeldingen.
+- Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
+
+## Een preview
+<img width="700" alt="Schermafbeelding 2022-03-08 144013" src="https://user-images.githubusercontent.com/74137185/157249410-7e098815-1f1e-48b4-8a09-6ca8c40cb6d5.png">
+
+## Process
+### Breakdownschets
+
+### CSS aanpak
+
+### Usability HTML
+
+### Wireflow
+
+### HTML basis
+
+### CSS laag
+
+### JavaScript laag
+
+### Overige verbeteringen
+
+
+## Issues?
+Je kan een issue aanmaken in deze repository om me te laten weten wat er mis gaat.
+
+ ## License
+[MIT](https://github.com/AronPelgrim/progressive-web-apps-2122/blob/main/LICENSE)
