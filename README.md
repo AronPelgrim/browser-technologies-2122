@@ -31,16 +31,16 @@ Volg de link voor de app!
 - Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
 
 ## Een preview
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/74137185/162267457-f36d6231-fa99-463d-a1da-3345aa3bc7f2.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/162267457-f36d6231-fa99-463d-a1da-3345aa3bc7f2.png">
 
 ## Process
 ### Breakdownschets
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/74137185/162272581-9c42f1f3-1128-4bca-a674-62dc8a443b37.jpg">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/162272581-9c42f1f3-1128-4bca-a674-62dc8a443b37.jpg">
 
 Om ervoor te zorgen dat de HTML semantisch netjes is en daardoor altijd blijft werken, heb ik voordat ik ben begonnen met coderen, de HTML uitgeschreven in een breakdownschets. Op deze manier wil ik een goede basis creëren.
 
 ### Usability HTML
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/74137185/162273808-7ab17617-0009-48cb-87f1-470d884747ad.jpg">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/162273808-7ab17617-0009-48cb-87f1-470d884747ad.jpg">
 
 Het is belangrijk dat ik weet dat de core functionaliteit in elke browser blijft werken. Daarom heb ik onderzoek gedaan op https://caniuse.com/ om te kijken hoe de HTML elementen worden gesupport. Het komt erop neer dat alleen ```datetime-local``` niet word gesupport door eerdere browsers. Dit is niet erg, want er is een fallback; namelijk dat het een normale ```input``` wordt.
 
