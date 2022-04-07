@@ -39,9 +39,10 @@ Volg de link voor de app!
 
 Om ervoor te zorgen dat de HTML semantisch netjes is en daardoor altijd blijft werken, heb ik voordat ik ben begonnen met coderen, de HTML uitgeschreven in een breakdownschets. Op deze manier wil ik een goede basis creëren.
 
-### CSS aanpak
-
 ### Usability HTML
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/74137185/162273808-7ab17617-0009-48cb-87f1-470d884747ad.jpg">
+
+Het is belangrijk dat ik weet dat de core functionaliteit in elke browser blijft werken. Daarom heb ik onderzoek gedaan op https://caniuse.com/ om te kijken hoe de HTML elementen worden gesupport.
 
 ### Wireflow
 
