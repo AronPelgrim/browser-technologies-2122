@@ -6,7 +6,7 @@
 Welkom bij deze repository. Voor dit project heb ik een enquete gemaakt voor de CMD minor, die werkzaam is op verschillende browsers en waarin het mogelijk is om de CSS en JavaScript uit te zetten en alsnog een werkende enquete te hebben. Dit is voornamelijk gedaan door de strategie Progressive Enhancement.
 
 Volg de link voor de app!
-[https://browser-tech-aron.herokuapp.com/](https://browser-tech-aron.herokuapp.com/)
+[Live Heroku link enquete](https://browser-tech-aron.herokuapp.com/)
 
 ## Table of Contents
 
