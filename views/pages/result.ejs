@@ -9,10 +9,13 @@
         <link rel="stylesheet" href="../css/mainStyles.css">
     </head>
     <body>
-        <h1>Hallo bedankt voor het invullen he.</h1>
+        <h1>Hi, bedankt voor het invullen!</h1>
         <h2>Resultaten</h2>
-        <% resultList.forEach(function(antwoorden) { %>
-            <p><%- antwoorden %></p>
-        <% }) %>  
+        <a href="#results">Bekijk resultaten</a><br>
+        <ul id="results">
+            <% resultList.forEach(function(antwoorden) { %>
+                <li><%- antwoorden %></li>
+            <% }) %> 
+        </ul> 
     </body>
 </html>
