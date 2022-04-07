@@ -42,7 +42,7 @@ Om ervoor te zorgen dat de HTML semantisch netjes is en daardoor altijd blijft w
 ### Usability HTML
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/74137185/162273808-7ab17617-0009-48cb-87f1-470d884747ad.jpg">
 
-Het is belangrijk dat ik weet dat de core functionaliteit in elke browser blijft werken. Daarom heb ik onderzoek gedaan op https://caniuse.com/ om te kijken hoe de HTML elementen worden gesupport.
+Het is belangrijk dat ik weet dat de core functionaliteit in elke browser blijft werken. Daarom heb ik onderzoek gedaan op https://caniuse.com/ om te kijken hoe de HTML elementen worden gesupport. Het komt erop neer dat alleen ```datetime-local``` niet word gesupport door eerdere browsers. Dit is niet erg, want er is een fallback; namelijk dat het een normale ```input``` wordt.
 
 ### Wireflow
 
