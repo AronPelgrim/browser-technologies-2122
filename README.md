@@ -45,6 +45,9 @@ Om ervoor te zorgen dat de HTML semantisch netjes is en daardoor altijd blijft w
 Het is belangrijk dat ik weet dat de core functionaliteit in elke browser blijft werken. Daarom heb ik onderzoek gedaan op https://caniuse.com/ om te kijken hoe de HTML elementen worden gesupport. Het komt erop neer dat alleen ```datetime-local``` niet word gesupport door eerdere browsers. Dit is niet erg, want er is een fallback; namelijk dat het een normale ```input``` wordt.
 
 ### Wireflow
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/162275076-567ef71a-e8f2-4a33-9a4c-ba9c4b62dec1.jpg">
+
+Om grofweg een idee te krijgen van hoe de app eruit gaat zien, heb ik een wireflow gemaakt. Ik wil per vak een klein lijstje zichtbaar hebben. Terwijl het eigenlijk wel 1 groot formulier is.
 
 ### HTML basis
 
