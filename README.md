@@ -37,6 +37,7 @@ Volg de link voor de app!
 ### Breakdownschets
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/74137185/162272581-9c42f1f3-1128-4bca-a674-62dc8a443b37.jpg">
 
+Om ervoor te zorgen dat de HTML semantisch netjes is en daardoor altijd blijft werken, heb ik voordat ik ben begonnen met coderen, de HTML uitgeschreven in een breakdownschets. Op deze manier wil ik een goede basis creëren.
 
 ### CSS aanpak
 
