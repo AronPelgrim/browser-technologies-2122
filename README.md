@@ -61,7 +61,21 @@ Nadat ik zeker wist dat de core functionality goed stond, ben ik styling gaan to
 Met JavaScript heb ik ervoor gezorgd dat als er een nieuw vak in beeld komt, dat deze met een animatie wordt ingesprongen. Dat doe ik met de ```Intersection Observer API```. Die geeft een ```class``` aan een element op het moment dat deze in beeld springt. Het is een leuke toevoeging, maar kan zonder problemen worden uitgezet. Dit zal niks stuk maken aan de core functionality.
 
 ### Overige verbeteringen
-Bij het tovoegen van de 
+Bij het tovoegen van de CSS laag, heb ik er rekening mee gehouden, dat niet alle (vooral nieuwe) elementen worden gesupport in alle browsers. Vandaar dat ik een aantal ```@supports``` media queries heb gebruikt. 
+
+Ik heb dit bijvoorbeeld gebruikt bij een grid.
+
+```CSS
+@supports (display: grid) {
+    body {
+      display: grid;
+      place-items: center;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+```
 
 ## Issues?
 Je kan een issue aanmaken in deze repository om me te laten weten wat er mis gaat.
