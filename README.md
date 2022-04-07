@@ -56,6 +56,9 @@ Na het schetsen ben ik begonnen met coderen. Uiteraard eerst alleen de sterke ba
 Nadat ik zeker wist dat de core functionality goed stond, ben ik styling gaan toevoegen aan de enquete. Zoals je kan zien is alleen het relevante onderwerp in beeld. Dat doe ik dus met de ```:target``` selector.
 
 ### JavaScript laag
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/162279238-de031ddb-6008-4d2d-bcb3-3251ffc0eb84.png">
+
+Met JavaScript heb ik ervoor gezorgd dat als er een nieuw vak in beeld komt, dat deze met een animatie wordt ingesprongen. Dat doe ik met de ```Intersection Observer API```. Die geeft een ```class``` aan een element op het moment dat deze in beeld springt. Het is een leuke toevoeging, maar kan zonder problemen worden uitgezet. Dit zal niks stuk maken aan de core functionality.
 
 ### Overige verbeteringen
 
