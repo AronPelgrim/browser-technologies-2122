@@ -8,7 +8,6 @@ Volg de link voor de app!
 
 -   [User story](#user-story)
 -   [Eisen](#eisen)
--   [Een preview](#een-preview)
 -   [Process](#process)
 -   [Issues?](#issues)
 -   [License](#license)
@@ -29,9 +28,6 @@ Volg de link voor de app!
 	
 - Validatie: alles moet zijn ingevuld voordat je verder mag met het formulier. Geef duidelijke foutmeldingen.
 - Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
-
-## Een preview
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/162267457-f36d6231-fa99-463d-a1da-3345aa3bc7f2.png">
 
 ## Process
 ### Breakdownschets
@@ -55,6 +51,9 @@ Om grofweg een idee te krijgen van hoe de app eruit gaat zien, heb ik een wirefl
 Na het schetsen ben ik begonnen met coderen. Uiteraard eerst alleen de sterke basis met html. Op de afbeelding is te zien dat het formulier prima kan worden voltooid zonder CSS en JavaScript.
 
 ### CSS laag
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/162278381-3bab2bb5-0078-4c66-be13-9775909b3bbb.png">
+
+Nadat ik zeker wist dat de core functionality goed stond, ben ik styling gaan toevoegen aan de enquete. Zoals je kan zien is alleen het relevante onderwerp in beeld. Dat doe ik dus met de ```:target``` selector.
 
 ### JavaScript laag
 
