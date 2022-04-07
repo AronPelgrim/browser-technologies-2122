@@ -31,7 +31,7 @@ Volg de link voor de app!
 - Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
 
 ## Een preview
-<img width="700" alt="Schermafbeelding 2022-03-08 144013" src="https://user-images.githubusercontent.com/74137185/157249410-7e098815-1f1e-48b4-8a09-6ca8c40cb6d5.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/74137185/162267457-f36d6231-fa99-463d-a1da-3345aa3bc7f2.png">
 
 ## Process
 ### Breakdownschets
