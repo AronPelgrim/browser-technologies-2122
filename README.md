@@ -35,7 +35,7 @@ Volg de link voor de app!
 
 ## Process
 ### Breakdownschets
-![IMG_20220407_202423](https://user-images.githubusercontent.com/74137185/162272581-9c42f1f3-1128-4bca-a674-62dc8a443b37.jpg)
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/74137185/162272581-9c42f1f3-1128-4bca-a674-62dc8a443b37.jpg">
 
 
 ### CSS aanpak
