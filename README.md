@@ -50,6 +50,9 @@ Het is belangrijk dat ik weet dat de core functionaliteit in elke browser blijft
 Om grofweg een idee te krijgen van hoe de app eruit gaat zien, heb ik een wireflow gemaakt. Ik wil per vak het formululier zichtbaar hebben, terwijl het eigenlijk wel 1 groot formulier is met alle vakken. Dit kan ik gaan doen met de ```:target``` selector.
 
 ### HTML basis
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/162276420-9c9f5c48-a834-453d-ba1f-9280cc27fca5.png">
+
+Na het schetsen ben ik begonnen met coderen. Uiteraard eerst alleen de sterke basis met html. Op de afbeelding is te zien dat het formulier prima kan worden voltooid zonder CSS en JavaScript.
 
 ### CSS laag
 
