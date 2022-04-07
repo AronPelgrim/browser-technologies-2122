@@ -47,7 +47,7 @@ Het is belangrijk dat ik weet dat de core functionaliteit in elke browser blijft
 ### Wireflow
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/162275076-567ef71a-e8f2-4a33-9a4c-ba9c4b62dec1.jpg">
 
-Om grofweg een idee te krijgen van hoe de app eruit gaat zien, heb ik een wireflow gemaakt. Ik wil per vak een klein lijstje zichtbaar hebben. Terwijl het eigenlijk wel 1 groot formulier is.
+Om grofweg een idee te krijgen van hoe de app eruit gaat zien, heb ik een wireflow gemaakt. Ik wil per vak het formululier zichtbaar hebben, terwijl het eigenlijk wel 1 groot formulier is met alle vakken. Dit kan ik gaan doen met de ```:target``` selector.
 
 ### HTML basis
 
