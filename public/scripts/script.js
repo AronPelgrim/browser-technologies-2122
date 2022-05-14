@@ -1,18 +1,21 @@
-const options = {
-	threshold: [0.2]
-}
-const observer = new IntersectionObserver(onEntry, options)
-const elements = document.querySelectorAll('fieldset')
+const nextValidation = document.querySelectorAll('.next, submit')
+const form = document.querySelector('form')
+let array = []
 
-function onEntry(entry) {
-    entry.forEach((change) => {
-        if(change.isIntersecting) {
-            change.target.classList.add('visible')
-        }
+const validate = () => {
+    const input = document.getElementsByName('inputvalue')
+    for (var i = 0; i < input.length; i++) {
+        array.push(input[i].value)
+    }
+    if (array.includes('')) {
+        console.log("hans");
+    } else {
+        return false;
+    }
+}
+
+nextValidation.forEach(nextValidation => {
+    nextValidation.addEventListener("click", () => {
+        validate()
     })
-}    
-for (let elm of elements) {
-    observer.observe(elm)
-}
-
-
+})

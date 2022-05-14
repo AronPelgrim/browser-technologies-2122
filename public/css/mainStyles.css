@@ -14,22 +14,13 @@ h1 {
     font-weight: bold;
 }
 fieldset {
-    display: none;
-}
-fieldset:target {
     display: block;
     border: none;
     width: 25vw;
     transition: 1s;
     gap: 1em;
-    margin-top: 3em;
-}
-ul {
-    opacity: 0;
-    transition: 1s;
-}
-ul:target {
-    opacity: 1;
+    margin-top: 6em;
+    animation: boom 1s .2s both;
 }
 li {
     list-style-type: none;
@@ -40,7 +31,7 @@ legend {
     font-size: 1.3em; 
     font-weight: bold;
     border-bottom: .1em solid #000;
-    margin: 1em 0;
+    margin: 6em 0 1em 0;
 }
 label {
     font-size: 1em; 
@@ -54,6 +45,19 @@ input, textarea, select {
 	border: none;
 	padding: .5em .5em;
     margin-bottom: 1em;
+    color: black;
+    font-weight: bold;
+}
+input::placeholder, textarea::placeholder, select::placeholder {
+	color: #C8C8C8;
+    font-style: italic;
+    font-weight: normal;
+}
+input:invalid, textarea:invalid, select:invalid {
+    border: 2px solid #ff6666;
+}
+input:not(input[type=submit]):valid, textarea:valid, select:valid {
+    border: 2px solid black;
 }
 input[type=submit] {
     background-color: #07852E;
@@ -73,9 +77,6 @@ a {
 	cursor: pointer;
     padding: .5em .5em;
     border-radius: .4em;
-}
-.visible {
-    animation: boom 1s .2s both;
 }
 @keyframes boom {
     0% {
@@ -101,7 +102,7 @@ a {
     }
 }
 @supports (display: flex) {
-    fieldset:target {
+    fieldset {
         display: flex;
         flex-direction: column;
     }
