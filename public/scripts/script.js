@@ -1,6 +1,22 @@
-const nextValidation = document.querySelectorAll('.next, submit')
+const nextValidation = document.querySelector('input[type=submit]')
 const form = document.querySelector('form')
+const options = {
+	threshold: [0.2]
+}
+const observer = new IntersectionObserver(onEntry, options)
+const elements = document.querySelectorAll('fieldset')
 let array = []
+
+function onEntry(entry) {
+    entry.forEach((change) => {
+        if(change.isIntersecting) {
+            change.target.classList.add('visible')
+        }
+    })
+}    
+for (let elm of elements) {
+    observer.observe(elm)
+}
 
 const validate = () => {
     const input = document.getElementsByName('inputvalue')
@@ -14,8 +30,6 @@ const validate = () => {
     }
 }
 
-nextValidation.forEach(nextValidation => {
-    nextValidation.addEventListener("click", () => {
-        validate()
-    })
+nextValidation.addEventListener("click", () => {
+    validate()
 })
