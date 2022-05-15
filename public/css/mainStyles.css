@@ -1,5 +1,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 body {
     display: block;
@@ -12,6 +13,28 @@ h1 {
     text-align: left;
     font-weight: bold;
 }
+div {
+    display: none;
+}
+.popup {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: fit-content;
+    width: 100vw;
+    background-color: #ff6666;
+    animation: boom .3s both;
+}
+.popup p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em; 
+    padding: 1em;
+}
+form {
+    margin-bottom: 6em;
+}
 fieldset {
     display: block;
     border: none;
@@ -19,6 +42,7 @@ fieldset {
     transition: 1s;
     gap: 1em;
     margin-top: 6em;
+    padding: 2em;
     animation: boom 1s .2s both;
 }
 li {
@@ -53,7 +77,7 @@ input::placeholder, textarea::placeholder, select::placeholder {
     font-weight: normal;
 }
 input:invalid, textarea:invalid, select:invalid {
-    border: 2px solid #ff6666;
+    border: 2px dotted #ff6666;
 }
 input:not(input[type=submit]):valid, textarea:valid, select:valid {
     border: 2px solid black;
@@ -77,6 +101,10 @@ a {
     padding: .5em .5em;
     border-radius: .4em;
 }
+.visible {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border-radius: 1em;
+}
 @keyframes boom {
     0% {
         transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
@@ -90,7 +118,7 @@ a {
         filter: blur(0);
         opacity: 1;
       }
-}
+}  
 @supports (display: grid) {
     body {
       display: grid;

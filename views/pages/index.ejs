@@ -16,10 +16,12 @@
         <h1>CMD Minor Webdevelopment</h1>
         <form method="post" enctype="application/x-www-form-urlencoded" action="/result">
             <fieldset id="sgegevens">
+                <legend>Studentgegevens</legend>
                 <label for="naam">Naam</label><br>
-                <input type="text" value="" id="naam" name="inputvalue" id="hans" placeholder="Aron Pelgrim" required><br>
-                <label for="studentgegevens">Studentgegevens</label><br>
+                <input type="text" id="naam" name="inputvalue" placeholder="Aron Pelgrim" required><br>
+                <label for="studentgegevens">Studentnummer</label><br>
                 <input type="text" id="studentgegevens" name="inputvalue" placeholder="500807406" required><br>
+                <a href="#css">Volgende</a>
             </fieldset>
             <fieldset id="css">
                 <legend>Vak #1</legend>
@@ -49,6 +51,8 @@
                 <textarea id="uitleg" name="inputvalue" placeholder="Heel duidelijk." required></textarea><br>
                 <label for="inzicht ">Hoe goed snap je het?</label><br>
                 <textarea id="inzicht" name="inputvalue" placeholder="Ik snap het heel goed." required></textarea><br>
+                <a href="#sgegevens">Vorige</a>
+                <a href="#webapp">Volgende</a>
             </fieldset>
             <fieldset id="webapp">
                 <legend>Vak #2</legend>
@@ -78,6 +82,8 @@
                 <textarea id="uitleg" name="inputvalue" placeholder="Heel duidelijk." required></textarea><br>
                 <label for="inzicht ">Hoe goed snap je het?</label><br>
                 <textarea id="inzicht" name="inputvalue" placeholder="Ik snap het heel goed." required></textarea><br>
+                <a href="#css">Vorige</a>
+                <a href="#browsertech">Volgende</a>
             </fieldset>
             <fieldset id="browsertech">
                 <legend>Vak #3</legend>
@@ -107,6 +113,8 @@
                 <textarea id="uitleg" name="inputvalue" placeholder="Heel duidelijk." required></textarea><br>
                 <label for="inzicht ">Hoe goed snap je het?</label><br>
                 <textarea id="inzicht" name="inputvalue" placeholder="Ik snap het heel goed." required></textarea><br>
+                <a href="#webapp">Vorige</a>
+                <a href="#progressivewa">Volgende</a>
             </fieldset>
             <fieldset id="progressivewa">
                 <legend>Vak #4</legend>
@@ -136,6 +144,8 @@
                 <textarea id="uitleg" name="inputvalue" placeholder="Heel duidelijk." required></textarea><br>
                 <label for="inzicht ">Hoe goed snap je het?</label><br>
                 <textarea id="inzicht" name="inputvalue" placeholder="Ik snap het heel goed." required></textarea><br>
+                <a href="#browsertech">Vorige</a>
+                <a href="#realtimeweb">Volgende</a>
             </fieldset>
             <fieldset id="realtimeweb">
                 <legend>Vak #5</legend>
@@ -165,6 +175,8 @@
                 <textarea id="uitleg" name="inputvalue" placeholder="Heel duidelijk." required></textarea><br>
                 <label for="inzicht ">Hoe goed snap je het?</label><br>
                 <textarea id="inzicht" name="inputvalue" placeholder="Ik snap het heel goed." required></textarea><br>
+                <a href="#progressivewa">Vorige</a>
+                <a href="#hcd">Volgende</a>
             </fieldset>
             <fieldset id="hcd">
                 <legend>Vak #6</legend>
@@ -194,8 +206,12 @@
                 <textarea id="uitleg" name="inputvalue" placeholder="Heel duidelijk." required></textarea><br>
                 <label for="inzicht ">Hoe goed snap je het?</label><br>
                 <textarea id="inzicht" name="inputvalue" placeholder="Ik snap het heel goed." required></textarea><br>
-                <input type="submit" class="next" value="Versturen"/>
+                <a href="#realtimeweb">Vorige</a><br>
+                <input type="submit" value="Versturen" />
             </fieldset>
         </form>
+        <div>
+            <p>Vergeet niet om alle velden in te vullen!</p>
+        </div>
     </body>
 </html>
