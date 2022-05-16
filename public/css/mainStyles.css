@@ -71,6 +71,9 @@ input, textarea, select {
     color: black;
     font-weight: bold;
 }
+input:focus, textarea:focus, select:focus {
+	border: 3px solid black;
+}
 input::placeholder, textarea::placeholder, select::placeholder {
 	color: #C8C8C8;
     font-style: italic;
@@ -78,9 +81,6 @@ input::placeholder, textarea::placeholder, select::placeholder {
 }
 input:invalid, textarea:invalid, select:invalid {
     border: 2px dotted #ff6666;
-}
-input:not(input[type=submit]):valid, textarea:valid, select:valid {
-    border: 2px solid black;
 }
 input[type=submit] {
     background-color: #07852E;

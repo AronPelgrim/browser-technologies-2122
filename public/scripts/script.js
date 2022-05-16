@@ -5,6 +5,7 @@ const options = {
 }
 const observer = new IntersectionObserver(onEntry, options)
 const elements = document.querySelectorAll('fieldset')
+const popUp = document.querySelector('div')
 let array = []
 
 function onEntry(entry) {
@@ -22,18 +23,24 @@ for (let elm of elements) {
 
 const validate = () => {
     const input = document.getElementsByName('inputvalue')
-    const popUp = document.querySelector('div')
     for (var i = 0; i < input.length; i++) {
         array.push(input[i].value)
     }
     if (array.includes('')) {
         popUp.classList.add('popup')
-        setTimeout(() => {
-            popUp.classList.remove('popup')
-          }, 4000)
+    }
+}
+
+const removeValidate = () => { 
+    if (popUp.classList.contains('popup')) {
+        popUp.classList.remove('popup')
     }
 }
 
 nextValidation.addEventListener("click", () => {
     validate()
+})
+
+form.addEventListener("input", () => {
+    removeValidate()
 })
