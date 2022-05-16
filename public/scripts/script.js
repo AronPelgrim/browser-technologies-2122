@@ -21,12 +21,11 @@ for (let elm of elements) {
     observer.observe(elm)
 }
 
-const validate = () => {
-    const input = document.getElementsByName('inputvalue')
-    for (var i = 0; i < input.length; i++) {
-        array.push(input[i].value)
-    }
-    if (array.includes('')) {
+const validate = (action) => {
+    form.action = action
+    if (form.checkValidity()) {
+      form.submit()
+    } else {
         popUp.classList.add('popup')
     }
 }
