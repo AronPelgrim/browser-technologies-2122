@@ -133,6 +133,10 @@ Verder heb ik nog een custom validatie gemaakt door het gebruik van ```checkVali
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/169320937-2d01a9d2-b947-49bb-93c6-8c12fdefac72.png">
 
+Tot slot heb ik de functionaliteit van de ```Intersection Observer API``` aangespast. Op dit moment komt er geen animatie meer geactiveerd bij de fieldset dat in beeld is, maar krijgt de fieldset in beeld een ```dropshadow```. Op deze manier wordt er goed onderscheid gemaakt tussen de verschillende vakken die je aan het invullen bent.
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/169323001-b02faf1d-d8e9-4c98-8c85-e6db72a41cb0.png">
+
 ## Issues?
 Je kan een issue aanmaken in deze repository om me te laten weten wat er mis gaat.
 
