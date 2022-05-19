@@ -8,6 +8,8 @@ const elements = document.querySelectorAll('fieldset')
 const popUp = document.querySelector('div')
 let array = []
 
+console.log(form);
+
 function onEntry(entry) {
     entry.forEach((change) => {
         if(change.isIntersecting) {
@@ -21,8 +23,7 @@ for (let elm of elements) {
     observer.observe(elm)
 }
 
-const validate = (action) => {
-    form.action = action
+const validate = () => {
     if (form.checkValidity()) {
       form.submit()
     } else {
