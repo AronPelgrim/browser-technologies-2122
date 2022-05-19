@@ -125,9 +125,13 @@ En tot slot heb ik dit gebruikt bij ```clamp()``` om verschillende font-sizes op
 ```
 
 ## Aanvullingen herkansing
-Het eerste ontwerp was redelijk compleet, maar het miste nog wel iets, namelijk een goede validatie. Doordat ik met de ```:target``` selector alleen de fieldsets liet zien die op dat moment actief waren, kon de HTML validatie, de niet actieve fieldsets, die niet compleet waren ingevuld, niet vermelden in een popup. De gebruiker moest dan handmatig naar de juiste fieldset navigeren, om daar de velden compleet te maken. Door deze reden, heb ik de ```:target``` selector uit het prototype gehaald en laat ik nu alle fieldsets op één pagina zien
+Het eerste ontwerp was redelijk compleet, maar het miste nog wel iets, namelijk een goede validatie. Doordat ik met de ```:target``` selector alleen de fieldsets liet zien die op dat moment actief waren, kon de HTML validatie, de niet actieve fieldsets, die niet compleet waren ingevuld, niet vermelden in een popup. De gebruiker moest dan handmatig naar de juiste fieldset navigeren, om daar de velden compleet te maken. Door deze reden, heb ik de ```:target``` selector uit het prototype gehaald en laat ik nu alle fieldsets op één pagina zien. 
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/169318440-bc39b656-1f94-4fb9-9bf0-dc6e0036a957.png">
+
+Verder heb ik nog een custom validatie gemaakt door het gebruik van ```checkValidity()``` op de form. Wanneer de form nog niet compleet is ingevuld, zet ik een class op een popup div die een melding geeft aan de gebruiker, dat de form nog niet compleet is ingevuld. Deze popup verdwijnt als de gebruiker verder gaat met typen in de form.
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/74137185/169320937-2d01a9d2-b947-49bb-93c6-8c12fdefac72.png">
 
 ## Issues?
 Je kan een issue aanmaken in deze repository om me te laten weten wat er mis gaat.
