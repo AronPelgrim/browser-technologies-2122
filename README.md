@@ -13,6 +13,7 @@ Volg de link voor de app!
 -   [User story](#user-story)
 -   [Eisen](#eisen)
 -   [Process](#process)
+-   [Aanvullingen herkansing](#aanvullingen-herkansing)
 -   [Issues?](#issues)
 -   [License](#license)
 
@@ -122,6 +123,8 @@ En tot slot heb ik dit gebruikt bij ```clamp()``` om verschillende font-sizes op
     }
 }
 ```
+
+## Aanvullingen herkansing
 
 ## Issues?
 Je kan een issue aanmaken in deze repository om me te laten weten wat er mis gaat.
