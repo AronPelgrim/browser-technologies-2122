@@ -105,6 +105,9 @@ a {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     border-radius: 1em;
 }
+#results li:nth-of-type(8n+3) {
+    font-weight: bold;
+}
 @keyframes boom {
     0% {
         transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
