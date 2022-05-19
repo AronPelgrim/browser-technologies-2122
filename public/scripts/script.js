@@ -1,3 +1,7 @@
+//inspiatie van: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+//inspiratie van: https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/checkValidity
+//inspiratie van: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event
+
 const nextValidation = document.querySelector('input[type=submit]')
 const form = document.querySelector('form')
 const options = {
